@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Add Product</title>
+</head>
+
+<body>
+    <header class="nav">
+        <img class="imgHeader" src="img/head_img.png" />
+        <nav class="navItems font-pthin">
+            <a href="desen.html" class="navItems">Home</a>
+            <hr class="nav_hr" />
+            <a href="desen.html" class="navItems">About</a>
+            <hr class="nav_hr" />
+            <a href="desen.html" class="navItems">Shop</a>
+            <hr class="nav_hr" />
+            <a href="desen.html" class="navItems" style="margin-right: 10px;">Help</a>
+            <a class="btn" href="index.html">New Product</a>
+        </nav>
+    </header>
+    <hr style="margin-bottom: 0px;" />
+    <main class="main1">
+        <form action="" id="mainForm">
+            <div class="formContent font-pthin">
+                <div class="inputsForm font-pthin">
+                    <div>
+                        <h1>New Product</h1>
+                        <hr />
+                    </div>
+                    <div class="label-div font-pthin">
+                        <label class="label" for="product">Product</label>
+                        <input class="input font-pthin" placeholder="Mochila Preta" name="product" id="product" required />
+                    </div>
+                    <div class="label-div font-pthin">
+                        <label class="label" for="price">Price</label>
+                        <input type="number" min="0" class="input font-pthin" placeholder="600" name="price" id="price" required />
+                    </div>
+                    <div class="label-div font-pthin">
+                        <label class="label" for="desc">Description</label>
+                        <textarea class="input text-area font-pthin" placeholder="Conte um pouco sobre o produto..." name="desc" id="desc" required></textarea>
+                    </div>
+                </div>
+                <section class="inputsForm font-pthin">
+                    <div>
+                        <h1>Product Picture</h1>
+                        <hr />
+                    </div>
+                    <div class="inputsImg">
+                        <div class="imgSelector font-pthin">
+                            <img id="imgg" class="imgg" src="img/img_select.png" />
+                        </div>
+                        <input class="inputImg font-pthin" pattern="^https?://(.*)" placeholder="Cole o link de uma imagem" name="img" id="img" required />
+                    </div>
+                </section>
+            </div>
+            <hr class="hr1" />
+
+            <div class="formButtons font-pthin">
+                <button class="submitBtn font-pthin" type="submit">
+                    Add Product
+                </button>
+                <a class="cancelBtn font-pthin" href="compra.html">
+                    Cancel
+                </a>
+            </div>
+        </form>
+    </main>
+    <hr class="foot_hr" />
+    <footer class="footer">
+        <div class="nav_div">
+            <nav class="footItems font-pthin">
+                <a href="desen.html" class="footItem">Home</a>
+                <hr class="nav_hr" />
+                <a href="desen.html" class="footItem">About</a>
+                <hr class="nav_hr" />
+                <a href="desen.html" class="footItem">Shop</a>
+                <hr class="nav_hr" />
+                <a href="desen.html" class="footItem" style="margin-right: 10px;">Help</a>
+            </nav>
+        </div>
+        <div class="foot_com_div">
+            <p class="foot_p"><img class="foot_img" src="https://cdn.glitch.com/9f34e691-26f1-4604-ac12-5ecbecd67668%2FC.png?v=1604494691072" /> Your Company Name</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
