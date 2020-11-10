@@ -1,21 +1,26 @@
 .foot_p {
+    margin-left: 12px;
+    align-items: center;
     display: inline-flex;
     font-family: PoppinsThin;
     font-size: 15px;
 }
 
 .foot_img {
+    margin-right: 4px;
     width: 17px;
     height: 17px;
 }
 
 .foot_com_div {
+    justify-content: center;
+    display: flex;
     margin-top: 0px;
     text-align: center;
 }
 
 .foot_hr {
-    margin-top: 800px;
+    margin-top: 400px;
 }
 
 .footer {
@@ -46,7 +51,8 @@
 }
 
 .nav {
-    margin: 1rem 4rem;
+    margin-top: 5px;
+    margin: 2rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,6 +72,10 @@
 
 .s_hr {
     border: 1px solid;
+}
+
+.btn:hover {
+    background: #2f2f2f;
 }
 
 .btn {
@@ -108,7 +118,7 @@ button {
 
 h1,
 h2 {
-    margin-bottom: 0.83em;
+    margin: 0.83em 0;
     font-size: 35px;
     font-family: PoppinsThin;
     text-align: left;
@@ -126,7 +136,7 @@ h2 {
 .formContent {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .desen-body {
@@ -139,6 +149,10 @@ h2 {
     font-size: 120px;
     text-align: center;
     color: white;
+}
+
+.submitBtn:hover {
+    background: #2f2f2f;
 }
 
 .submitBtn {
@@ -158,6 +172,27 @@ button:hover {
 
 .bold {
     font-weight: bolder;
+}
+
+.desen_btn:hover {
+    background: black;
+    color: #ebebeb;
+}
+
+.desen_btn {
+    margin-left: 0px;
+    margin: 20px 10px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #ebebeb;
+    width: 210px;
+    border-radius: 2px;
+    color: black;
+    font-size: 16px;
+    padding: 0.5rem 0rem;
 }
 
 .cancelBtn {
@@ -185,7 +220,12 @@ button:hover {
 }
 
 .navItems>*+* {
-    margin-left: 1rem;
+    margin-left: 3rem;
+}
+
+.hr_head {
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .text-area {
@@ -244,6 +284,8 @@ button:hover {
 }
 
 .imgg {
+    object-position: center;
+    object-fit: cover;
     margin-bottom: 12px;
     border: 10px;
     width: 340px;
@@ -290,7 +332,11 @@ hr {
 }
 
 .imgHeader {
-    width: 40px;
+    width: 25px;
+}
+
+.cartBtnN:hover {
+    background: #2f2f2f;
 }
 
 .cartBtnN {

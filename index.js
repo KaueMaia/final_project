@@ -29,4 +29,5 @@ form.onsubmit = e => {
 
     localStorage.setItem('carrinho', JSON.stringify(carrinho));
 
+    window.location = "compra.html";
 };
